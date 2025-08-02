@@ -1,7 +1,3 @@
-Sure! Here's a **cleaned-up and well-formatted version** of your `README.md` that looks more polished and professional:
-
----
-
 # 🐞 Bug Management System
 
 A **full-stack web application** for efficient **bug tracking and project management**, built to streamline the software development lifecycle. This system allows role-based interaction between **Admins**, **Project Managers**, and **Developers**, ensuring clear responsibilities and effective collaboration.
