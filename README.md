@@ -1,87 +1,105 @@
-🐞 Bug Management System
-A full-stack web application for efficient bug tracking and project management, designed to streamline the software development process by allowing role-based interaction between Admins, Project Managers, and Developers.
+Sure! Here's a **cleaned-up and well-formatted version** of your `README.md` that looks more polished and professional:
 
-🔧 Features
-🛡️ Role-Based Access Control
+---
 
-Admins can manage all users and projects.
+# 🐞 Bug Management System
 
-Project Managers can create, assign, and manage bugs within their projects.
+A **full-stack web application** for efficient **bug tracking and project management**, built to streamline the software development lifecycle. This system allows role-based interaction between **Admins**, **Project Managers**, and **Developers**, ensuring clear responsibilities and effective collaboration.
 
-Developers can view and update bugs assigned to them.
+---
 
-📋 Bug Reporting & Tracking
+## 🔧 Features
 
-Create detailed bug reports with severity and priority.
+### 🛡️ Role-Based Access Control
 
-Track bug status (Open, In Progress, Resolved, Closed).
+* **Admins**: Manage users and projects.
+* **Project Managers**: Create, assign, and manage bugs within their projects.
+* **Developers**: View and update bugs assigned to them.
 
-Assign bugs to specific developers.
+### 📋 Bug Reporting & Tracking
 
-🗂️ Project Management
+* Report bugs with **priority**, **severity**, and **detailed descriptions**.
+* Update bug status: `Open`, `In Progress`, `Resolved`, `Closed`.
+* Assign bugs to specific team members.
 
-Create and manage multiple projects.
+### 🗂️ Project Management
 
-Assign team members to projects with defined roles.
+* Create and manage multiple projects.
+* Assign users to projects with specific roles.
 
-🧑‍💻 User Management
+### 🧑‍💻 User Management
 
-Secure login and session-based authentication.
+* Secure **login system** with **session-based authentication**.
+* Admin dashboard for managing users (add/edit/delete).
 
-Admin dashboard for adding/editing/deleting users.
+### 🖥️ Interactive Dashboards
 
-🖥️ Dashboard UI
+* Clean, user-friendly UI using **EJS templates** and **Bootstrap**.
+* Personalized views based on user role and project association.
 
-Clean and user-friendly interfaces built with EJS and Bootstrap.
+---
 
-Personalized views based on user roles.
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Frontend: EJS, Bootstrap, HTML/CSS
+* **Frontend**: EJS, Bootstrap, HTML/CSS
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB
+* **Authentication**: express-session, bcrypt
 
-Backend: Node.js, Express.js
+---
 
-Database: MongoDB
+## 🚀 Getting Started
 
-Authentication: Express-session, bcrypt
+### 1. Clone the Repository
 
-🚀 Getting Started
-1. Clone the Repository
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/Aldrin-Rodrigues/Bug-Management-System.git
 cd Bug-Management-System
-2. Install Dependencies
-bash
-Copy
-Edit
+```
+
+### 2. Install Dependencies
+
+```bash
 npm install
-3. Setup MongoDB
-Ensure MongoDB is installed and running.
+```
 
-Create a .env file and add your MongoDB connection string:
+### 3. Setup MongoDB
 
-env
-Copy
-Edit
+Ensure MongoDB is installed and running on your machine.
+
+Create a `.env` file in the root directory and add:
+
+```env
 MONGODB_URI=mongodb://localhost:27017/bug-management
 SESSION_SECRET=your_secret_key
-4. Run the Application
-bash
-Copy
-Edit
+```
+
+### 4. Run the Application
+
+```bash
 npm start
-Visit http://localhost:3000 in your browser.
+```
 
-📸 Screenshots
-(Add screenshots of dashboard, bug creation form, etc., here for better presentation)
+Visit [http://localhost:3000](http://localhost:3000) in your browser to get started.
 
-👥 Contributors
-Aldrin Rodrigues
-Aritro Maiti
-Ankit Arjunagi
-Amaan Ahmed
+---
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📸 Screenshots
+
+*(Add dashboard, login page, and bug form screenshots here for better presentation.)*
+
+---
+
+## 👥 Contributors
+
+* [Aldrin Rodrigues]
+* [Aritro Maiti]
+* [Ankit Arjunagi]
+* [Amaan Ahmed]
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
