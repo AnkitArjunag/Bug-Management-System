@@ -82,16 +82,17 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser to get star
 
 ## 📸 Screenshots
 
-*(Add dashboard, login page, and bug form screenshots here for better presentation.)*
+![Class Diagram](Classdiagram.png)
+
 
 ---
 
 ## 👥 Contributors
 
-* [Aldrin Rodrigues]
-* [Aritro Maiti]
-* [Ankit Arjunagi]
-* [Amaan Ahmed]
+* Aldrin Rodrigues
+* Aritro Maiti
+* Ankit Arjunagi
+* Amaan Ahmed
 
 ---
 
