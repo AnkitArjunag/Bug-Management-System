@@ -39,7 +39,7 @@ A **full-stack web application** for efficient **bug tracking and project manage
 
 * **Frontend**: EJS, Bootstrap, HTML/CSS
 * **Backend**: Node.js, Express.js
-* **Database**: MongoDB
+* **Database**: SQL
 * **Authentication**: express-session, bcrypt
 
 ---
